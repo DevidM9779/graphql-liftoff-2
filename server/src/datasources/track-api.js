@@ -4,7 +4,7 @@ class TrackAPI extends RESTDataSource {
 
     constructor() {
         super()
-        this.baseURL = "https://odyssey-lift-off-rest-api.herokuapp.com/docs/";
+        this.baseURL = "https://odyssey-lift-off-rest-api.herokuapp.com/";
     }
 
     getTracksForHome() {
